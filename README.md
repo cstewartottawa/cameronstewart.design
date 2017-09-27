@@ -4,7 +4,7 @@
 
 ![](photo.jpg)
 
-Cameron Stewart is multidisciplinary designer designer based in Ottawa.
+Cameron Stewart is multidisciplinary designer designer based in Ottawa.(follow with 'why statement')
 
 - **[cameron@cameronstewart.design] (mailto:cameron@cameronstewart.design)**
 
