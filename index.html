@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Confectionery Website</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner" class="masthead text-center island-1-2">
+    <div class="push-1-2">
+      <img class="logo valign-middle" src="images/cupcake.svg" alt="">
+      <h1 class="ib valign-middle push-0 yotta">Beau's Bonbons</h1>
+    </div>
+    <nav class="nav" role="navigation" id="nav">
+      <ol class="nav list-group-inline push-0 giga">
+        <li class="gutter-1-2"><a class="block pad-t-1-8 pad-b-1-8" href="#all-types">About Us</a></li>
+        <li class="gutter-1-2"><a class="block pad-t-1-8 pad-b-1-8" href="#types">Types of Candy</a></li>
+        <li class="gutter-1-2"><a class="block pad-t-1-8 pad-b-1-8" href="#vs-slugs">Process</a></li>
+      </ol>
+    </nav>
+  </header>
+
+  <main class="main" role="main" id="main">
+    <div class="relative">
+      <div class="banner push">
+        <img class="img-flex" src="images/chocolate-popcorn.jpg" alt="">
+      </div>
+      <div class="banner-content absolute pin-tl island max-length">
+        <p class="zetta bold">Best Candy In Town!</p>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="gutter-1-2 max-length">
+        <h2 id="all-types">About Us</h2>
+        <p>We are a multidicsiplinary candy shop that offers a wide range of candy supplies from sugar to chocloate to bubble gum and sugar cookies.</p>
+      </div>
+    </section>
+
+    <div>
+      <img class="img-flex" src="images/strawberry-cake.jpg" alt="">
+    </div>
+
+    <div class="gutter-1-2 max-length">
+      <h2 id="types">Types of Candy</h2>
+      <dl>
+        <dt class="bold mega">Chocolate</dt>
+        <dd>We have tons of different kinds of choolate and its all really good. It is awesome.</dd>
+        <dt class="bold mega">Sugar Cookies</dt>
+        <dd>We also have many different sugar cookies and they are really reasonably priced and good.</dd>
+        <dt class="bold mega">Bubble Gum</dt>
+        <dd>We have a lot of different flavours of bubble gum and they range from grape to cherry, you can blow bubbles with bubble gum.</dd>
+      </dl>
+    </div>
+
+    <div class="grid push">
+      <div class="unit xs-1 m-1-2">
+        <div class="embed embed-3by2">
+          <img class="embed-item" src="images/coffee.jpg" alt="">
+        </div>
+      </div>
+      <div class="unit xs-1 m-1-2">
+        <div class="embed embed-3by2">
+          <img class="embed-item" src="images/chocolate-limes.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="gutter-1-2 max-length">
+      <h2 id="vs-slugs">Process</h2>
+      <p>We make all of our candy in house. This guarantees freshness and it will taste very good. We have a unique way of making the candy.</p>
+    </div>
+    <div class="contact pad-t pad-b">
+      <div class="wrapper">
+        <h2 class="push-0 color-brand-dark gutter-1-2">Contact</h2>
+        <p class="mega max-length gutter-1-2">Order Your Favourtie Candy Now!</p>
+        <form class="grid" method="POST" action="https://formspree.io/cstewartottawa@gmail.com">
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label class="push-1-8" for="name">Your name</label>
+            <input id="name" placeholder="John Doe" name="name">
+          </div>
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label class="push-1-8" for="email">E-mail address</label>
+            <input id="email" placeholder="john.doe@gmail.com" type="email">
+          </div>
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label class="push-1-8" for="type">Type of Candy</label>
+            <select id="type">
+              <option>Chocolate Truffles</option>
+              <option>Bubble Gum</option>
+              <option>Strawberry Pie</option>
+              <option>Sugar Cookies</option>
+            </select>
+          </div>
+          <div class="unit xs-1 text-center">
+            <button class="btn mega" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer role="contentinfo" class="footer">
+    <div class="max-length island-1-2">
+      <small class="block push-1-2">© Beau's Bon Bons</small>
+      <nav>
+        <ol class="nav list-group-inline push-0 milli">
+          <li><a class="block" href="#all-types">About Us</a></li>
+          <li><a class="block" href="#types">Types of Candy</a></li>
+          <li><a class="block" href="#vs-slugs">Process</a></li>
+        </ol>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
