@@ -21,6 +21,12 @@ h2 {
   color: #d5d8dc;
 }
 
+.masthead {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
 .nav a {
   border-bottom: .08em solid #f36;
   color: #fffef4;
