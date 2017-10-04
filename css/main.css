@@ -1,0 +1,49 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  background-color: #283747;
+  color: #fff;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  color: #f36;
+}
+
+.masthead,
+.footer {
+  background-color: #283747;
+  color: #d5d8dc;
+}
+
+.nav a {
+  border-bottom: .08em solid #f36;
+  color: #fff;
+  text-decoration: none;
+  background-color: #283747;
+
+}
+
+.logo {
+  width: 64px;
+}
+
+.banner-content {
+  color: #fff;
+  text-shadow: .05em .05em .15em rgba(0, 0, 0, .6);
+  text-align: right;
+}
+
+.nav a:hover {
+  background-color: #d5d8dc;
+  color: #283747;
+}
+
+body {
+  background-image: url("../images/cupcake-2.svg");
+  background-size: 70px;
+}
