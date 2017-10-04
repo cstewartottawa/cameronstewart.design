@@ -1,13 +1,14 @@
 html {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
-  background-color: #283747;
-  color: #fff;
+  background-color: #281f20;
+  color: #fffef4;
 }
 
 h1,
 h2 {
   font-family: "Playfair Display", serif;
+  color: #fffef4;
 }
 
 h2 {
@@ -16,15 +17,15 @@ h2 {
 
 .masthead,
 .footer {
-  background-color: #283747;
+  background-color: #231f20;
   color: #d5d8dc;
 }
 
 .nav a {
   border-bottom: .08em solid #f36;
-  color: #fff;
+  color: #fffef4;
   text-decoration: none;
-  background-color: #283747;
+  background-color: #231f20;
 
 }
 
@@ -40,10 +41,5 @@ h2 {
 
 .nav a:hover {
   background-color: #d5d8dc;
-  color: #283747;
-}
-
-body {
-  background-image: url("../images/cupcake-2.svg");
-  background-size: 70px;
+  color: #fffef4;
 }
