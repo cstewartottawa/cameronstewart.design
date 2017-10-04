@@ -1,5 +1,5 @@
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Heebo", sans-serif;
   font-weight: lighter;
   background-color: #281f20;
   color: #fffef4;
@@ -7,7 +7,7 @@ html {
 
 h1,
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Heebo", sans-serif;
   color: #fffef4;
 }
 
@@ -40,6 +40,5 @@ h2 {
 }
 
 .nav a:hover {
-  background-color: #d5d8dc;
-  color: #fffef4;
+  color: #f36;
 }
