@@ -5,14 +5,8 @@ html {
   color: #fffef4;
 }
 
-h1,
-h2 {
-  font-family: "Heebo", sans-serif;
-  color: #fffef4;
-}
-
-h2 {
-  color: #f36;
+body {
+  min-width: 320px;
 }
 
 .masthead,
@@ -24,11 +18,10 @@ h2 {
 .masthead {
   position: fixed;
   width: 100%;
-  z-index: 1000;
+  z-index: 5000;
 }
 
 .nav a {
-  border-bottom: .08em solid #f36;
   color: #fffef4;
   text-decoration: none;
   background-color: #231f20;
@@ -46,5 +39,104 @@ h2 {
 }
 
 .nav a:hover {
-  color: #f36;
+  opacity: .3;
+}
+
+.banana-wrapper {
+  height: 30rem;
+}
+
+.banana:first-child {
+  padding-top: 70px;
+}
+.banana::after {
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0);
+  z-index: 1000;
+  position: absolute;
+  transition: all 200ms ease-in-out;
+}
+
+.banana:hover::after {
+  background-color: rgba(255,255,255,.5);
+}
+
+.banana-content {
+  color: black;
+  font-family: "Heebo", sans-serif;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+  transform: translate(-50%, -40%);
+}
+
+.banana:hover .banana-content {
+  opacity: 1;
+  z-index: 2000;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.collaboration {
+  font-weight: 100;
+}
+
+.banana-image {
+  background-image: cover;
+  background-position: center center;
+}
+
+.lift-image {
+  background-image: url('../images/lift-logo-hero.png');
+}
+
+.footer-name {
+  border-right: 1px solid #fff;
+  margin-right: .5rem;
+  padding-right: .7rem;
+  line-height: 1;
+}
+
+.wrapper {
+  max-width: 60em;
+}
+
+.pad-t-4 {
+  padding-top: 8rem;
+}
+.pad-b-4 {
+  padding-bottom: 8rem;
+}
+
+.intro-section-lift {
+  background-color: #ed1c24;
+}
+
+.logo-section-lift-1 {
+  background: radial-gradient(circle at center, #fff 0, #fff 90%, #fff 100%);
+}
+
+.logo-restraints {
+  max-width: 20em;
+}
+
+.logo-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-red {
+  background-color: #ed1c24;
+  max-width: 30em;
+}
+
+.logo-black {
+  background-color: black;
+  max-width: 30em;
 }
