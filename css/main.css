@@ -11,7 +11,7 @@ body {
 
 .masthead,
 .footer {
-  background-color: #231f20;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #d5d8dc;
 }
 
@@ -24,12 +24,14 @@ body {
 .nav a {
   color: #fffef4;
   text-decoration: none;
-  background-color: #231f20;
-
 }
 
 .logo {
-  width: 350px;
+  width: 16rem;
+}
+
+.logo-small {
+  width: 32px;
 }
 
 .banner-content {
@@ -103,6 +105,10 @@ h3 {
   line-height: 1;
 }
 
+.icon a:hover {
+  opacity: .3;
+}
+
 .wrapper {
   max-width: 60em;
 }
@@ -131,12 +137,14 @@ h3 {
   margin-right: auto;
 }
 
-.logo-red {
+.bg-red {
   background-color: #ed1c24;
-  max-width: 30em;
 }
 
-.logo-black {
+.bg-black {
   background-color: black;
-  max-width: 30em;
+}
+
+.lift-logo-2 {
+  max-width: 12rem;
 }
