@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="description" content="{{page.description}}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,700,900" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner" class="masthead text-left pad-t-1-2 pad-b-1-2">
+    <div class="grid grid-middle wrapper gutter">
+      <div class="unit unit-m-hidden xs-1-4">
+        <a href="{{site.baseurl}}/" class="ib">
+            <h1 class="push-0"><img class="logo-small valign-middle" src="{{site.baseurl}}/images/wordmark-initials.svg" alt="Cameron Stewart"></h1>
+        </a>
+      </div>
+      <div class="unit unit-xs-hidden m-1-4">
+        <a href="{{site.baseurl}}/" class="ib">
+          <h1 class="push-0"><img class="logo valign-middle" src="{{site.baseurl}}/images/wordmark.svg" alt="Cameron Stewart"></h1>
+        </a>
+      </div>
+      <nav class="unit xs-3-4 s-3-4 nav text-right" role="navigation" id="nav">
+        <ol class="nav list-group-inline push-0 giga">
+          <li class="push-r"><a class="block pad-t-1-8 pad-b-1-8" href="{{site.baseurl}}/">work</a></li>
+          <li class="push-r"><a class="block pad-t-1-8 pad-b-1-8" href="{{site.baseurl}}/contact/">contact</a></li>
+          <li><a class="block pad-t-1-8 pad-b-1-8" href="{{site.baseurl}}/about/">about</a></li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main" role="main" id="main">
+    {{content}}
+  </main>
+
+    <footer role="contentinfo" class="footer bg-black">
+      <div class="grid gutter pad-t-1-2 pad-b-1-2">
+        <div class="unit xs-1-3">
+          <i class="icon i-32">
+            <img class="img-flex" src="{{site.baseurl}}/images/instagram-icon.svg" alt="">
+          </i>
+        </div>
+
+        <div class="unit xs-1-3 text-center">
+          <i class="icon i-32">
+            <img class="img-flex" src="{{site.baseurl}}/images/instagram-icon.svg" alt="">
+          </i>
+        </div>
+
+        <div class="unit xs-1-3 text-right">
+          <a class="ib" href="instagram website">
+          <i class="icon i-32">
+            <img class="img-flex" src="{{site.baseurl}}/images/instagram-icon.svg" alt="">
+          </i>
+          </a>
+        </div>
+      </div>
+      <div class="text-center">
+      <small class="footer-name">Cameron Stewart</small>
+      <small>2018</small>
+
+    </div>
+
+
+    </footer>
+
+    </body>
+    </html>

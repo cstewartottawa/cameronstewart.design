@@ -1,7 +1,6 @@
 html {
   font-family: "Heebo", sans-serif;
   font-weight: 100;
-  background-color: #231f20;
   color: #fffef4;
 }
 
@@ -18,12 +17,37 @@ body {
 .masthead {
   position: fixed;
   width: 100%;
+  min-width: 320px;
   z-index: 5000;
+}
+
+a:active {
+  outline: none;
 }
 
 .nav a {
   color: #fffef4;
   text-decoration: none;
+}
+
+.contact-titles {
+  padding-top: 10em;
+  color: #ff6b6b;
+}
+
+.list-group-inline > dt {
+  width: 4em;
+}
+
+.background-image {
+  height: 100vh;
+  background-image: url('../images/mountain-background.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+.btn-link:hover {
+  color: #111;
 }
 
 .logo {
@@ -40,6 +64,17 @@ body {
   text-align: right;
 }
 
+.about-me-content {
+  color: black;
+}
+
+.keyline {
+  height: .4rem;
+  width: 3rem;
+  background-color: #f9a08c;
+}
+
+.current,
 .nav a:hover {
   opacity: .3;
 }
@@ -48,9 +83,6 @@ body {
   height: 30rem;
 }
 
-.banana:first-child {
-  padding-top: 70px;
-}
 .banana::after {
   content: '';
   top: 0;
@@ -85,14 +117,14 @@ h3 {
   font-weight: 300;
 }
 
+p {
+  font-weight: 400;
+}
+
 .collaboration {
   font-weight: 100;
 }
 
-.banana-image {
-  background-image: cover;
-  background-position: center center;
-}
 
 .lift-image {
   background-image: url('../images/lift-logo-hero.png');
@@ -142,9 +174,34 @@ h3 {
 }
 
 .bg-black {
-  background-color: black;
+  background-color: #0f0f0f;
+}
+
+.color-red {
+  color: #ed1c24;
 }
 
 .lift-logo-2 {
   max-width: 12rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .push-m-0 {
+    margin-bottom: 0;
+  }
+
+  .about-me-section {
+    position: relative;
+  }
+
+  .about-me-content {
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    max-width: 18em;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+
 }
