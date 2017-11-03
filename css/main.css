@@ -41,7 +41,7 @@ a:active {
 
 .background-image {
   height: 100vh;
-  background-image: url('../images/mountain-background.png');
+  background-image: url('../images/mountain-background.jpg');
   background-size: cover;
   background-position: center top;
 }
