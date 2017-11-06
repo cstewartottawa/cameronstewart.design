@@ -71,7 +71,7 @@ a:active {
 .keyline {
   height: .4rem;
   width: 3rem;
-  background-color: #f9a08c;
+  background-color: #ff6b6b;
 }
 
 .current,
@@ -96,11 +96,15 @@ a:active {
 }
 
 .banana:hover::after {
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(0,0,0,.6);
+}
+
+.banana:hover .banana-image {
+    filter: grayscale(100%);
 }
 
 .banana-content {
-  color: black;
+  color: #fffdf3;
   font-family: "Heebo", sans-serif;
   opacity: 0;
   transition: all 200ms ease-in-out;
