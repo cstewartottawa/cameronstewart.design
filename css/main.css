@@ -69,7 +69,7 @@ a:active {
 }
 
 .keyline {
-  height: .4rem;
+  height: .25rem;
   width: 3rem;
   background-color: #ff6b6b;
 }
@@ -117,8 +117,12 @@ a:active {
     transform: translate(-50%, -50%);
 }
 
+h2 {
+  font-weight: 500;
+}
+
 h3 {
-  font-weight: 300;
+  font-weight: 100;
 }
 
 p {
