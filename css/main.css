@@ -152,6 +152,11 @@ p {
   color: #fff;
 }
 
+.bjkane-intro {
+  background-color: rgba(0, 0, 0, .9);
+  color: #fff;
+}
+
 .footer-name {
   border-right: 1px solid #fff;
   margin-right: .5rem;
