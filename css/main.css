@@ -147,6 +147,11 @@ p {
   color: #333;
 }
 
+.baxter-intro {
+  background-color: #3974c0;
+  color: #fff;
+}
+
 .footer-name {
   border-right: 1px solid #fff;
   margin-right: .5rem;
