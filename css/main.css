@@ -142,6 +142,11 @@ p {
    box-shadow: 9px 9px 6px #9b9b9b;
 }
 
+.cycling-intro {
+  background-color: yellow;
+  color: #333;
+}
+
 .footer-name {
   border-right: 1px solid #fff;
   margin-right: .5rem;
