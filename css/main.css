@@ -138,6 +138,10 @@ p {
   background-image: url('../images/lift-logo-hero.png');
 }
 
+.shadow {
+   box-shadow: 9px 9px 6px #9b9b9b;
+}
+
 .footer-name {
   border-right: 1px solid #fff;
   margin-right: .5rem;
