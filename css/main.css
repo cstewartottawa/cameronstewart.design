@@ -157,6 +157,10 @@ p {
   color: #fff;
 }
 
+.misc-titles {
+  color: #333;
+}
+
 .footer-name {
   border-right: 1px solid #fff;
   margin-right: .5rem;
