@@ -152,9 +152,18 @@ p {
   color: #fff;
 }
 
+.baxter-process {
+  color: #3974c0;
+}
+
+
 .bjkane-intro {
   background-color: rgba(0, 0, 0, .9);
   color: #fff;
+}
+
+.bjkane-process {
+  background-color: #ed1c24;
 }
 
 .misc-titles {
