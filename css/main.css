@@ -147,6 +147,11 @@ p {
   color: #333;
 }
 
+.cycling-process {
+  background-color: #0f0f0f;
+
+}
+
 .baxter-intro {
   background-color: #3974c0;
   color: #fff;
@@ -163,6 +168,11 @@ p {
 }
 
 .bjkane-process {
+  background-color: #fff;
+  color: #ed1c24;
+}
+
+.bjkane-grid {
   background-color: #ed1c24;
 }
 
