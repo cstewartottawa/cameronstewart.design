@@ -152,6 +152,10 @@ p {
 
 }
 
+.bg-volt {
+    background-color: #faff31;
+}
+
 .baxter-intro {
   background-color: #3974c0;
   color: #fff;
@@ -187,7 +191,8 @@ p {
   line-height: 1;
 }
 
-.icon a:hover {
+
+.icon:hover {
   opacity: .3;
 }
 
