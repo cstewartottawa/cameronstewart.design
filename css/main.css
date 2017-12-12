@@ -76,7 +76,7 @@ a:active {
 
 .current,
 .nav a:hover {
-  opacity: .3;
+  color: #ff6b6b;
 }
 
 .banana-wrapper {
