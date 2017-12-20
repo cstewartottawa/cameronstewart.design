@@ -35,9 +35,17 @@ a:active {
   color:#ff6b6b;
 }
 
+.introduction-title {
+  color: #fffef4;
+}
+
 .contact-titles {
   padding-top: 10em;
   color: #fffef4;
+}
+
+.contact-page {
+  background-color: #0f0f0f;
 }
 
 
@@ -95,33 +103,24 @@ a:active {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,.6);
   z-index: 1000;
   position: absolute;
   transition: all 200ms ease-in-out;
 }
 
-.banana:hover::after {
-  background-color: rgba(0,0,0,.6);
-}
-
-.banana:hover .banana-image {
-    filter: grayscale(100%);
+.banana .banana-image {
+  filter: grayscale(100%);
 }
 
 .banana-content {
   color: #fffef4;
   font-family: "futura-pt", sans-serif;
   font-weight: 700;
-  opacity: 0;
-  transition: all 200ms ease-in-out;
-  transform: translate(-50%, -40%);
-}
-
-.banana:hover .banana-content {
   opacity: 1;
   z-index: 2000;
-    transform: translate(-50%, -50%);
+  transition: all 200ms ease-in-out;
+  transform: translate(-50%, -50%);
 }
 
 h2 {
@@ -288,4 +287,36 @@ p {
 }
 
 
+}
+
+@media (hover: hover) {
+
+  .banana::after {
+    background-color: rgba(0,0,0,0);
+  }
+
+  .banana:hover::after {
+    background-color: rgba(0,0,0,.6);
+  }
+
+  .banana .banana-image {
+    filter: grayscale(0%);
+  }
+
+  .banana:hover .banana-image {
+    filter: grayscale(100%);
+  }
+
+  .banana-content {
+    opacity: 0;
+  }
+
+  .banana .banana-content {
+    transform: translate(-50%, -40%);
+  }
+
+  .banana:hover .banana-content {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
 }
