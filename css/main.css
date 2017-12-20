@@ -264,6 +264,16 @@ p {
   max-width: 12rem;
 }
 
+.swatches {
+  position: fixed;
+  right: 0;
+  bottom: 20%;
+  /* top: 50%; */
+  /* transform:translateY(-50%); */
+  pointer-events: none;
+  width: 40px;
+}
+
 @media only screen and (min-width: 38em) {
 
   .push-m-0 {
@@ -285,6 +295,7 @@ p {
 .about-me-body {
   font-weight: 300;
 }
+
 
 
 }
