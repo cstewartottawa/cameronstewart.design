@@ -157,9 +157,17 @@ p {
   background-color: #0f0f0f;
 }
 
+.cycling-process-title {
+  color: #faff31;
+}
+
 .cycling-secondary {
   background-color: #efefef;
   color: #0f0f0f;
+}
+
+.cycling-secondary-title {
+  color: #ed1c24;
 }
 
 .bg-volt {
@@ -275,7 +283,7 @@ p {
   /* top: 50%; */
   /* transform:translateY(-50%); */
   pointer-events: none;
-  width: 40px;
+  width: 1.5em;
 }
 
 @media only screen and (min-width: 38em) {
