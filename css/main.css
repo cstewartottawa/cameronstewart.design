@@ -180,6 +180,10 @@ p {
 }
 
 .baxter-process {
+  color: #d3c2af;
+}
+
+.baxter-process-title {
   color: #3974c0;
 }
 
@@ -200,7 +204,11 @@ p {
 
 .bjkane-process {
   background-color: #fff;
-  color: #ed1c24;
+  color: #0f0f0f;
+}
+
+.bjkane-process-title {
+    color: #ed1c24;
 }
 
 .bjkane-grid {
