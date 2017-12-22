@@ -227,8 +227,12 @@ p {
 }
 
 
-.icon:hover {
-  opacity: .3;
+ svg path {
+  transition: fill 0.5s;
+}
+
+svg:hover path {
+  fill: #ff6b6b;
 }
 
 .wrapper {
