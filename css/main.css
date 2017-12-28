@@ -66,6 +66,7 @@ a:active {
 
 .logo {
   width: 16rem;
+  max-height: .1rem;
 }
 
 .logo-small {
