@@ -53,12 +53,6 @@ a:active {
   width: 4em;
 }
 
-.background-image {
-  height: 100vh;
-  background-image: url('../images/mountain-background.jpg');
-  background-size: cover;
-  background-position: center top;
-}
 
 .btn-link:hover {
   color: #ff6b6b;
@@ -80,7 +74,8 @@ a:active {
 }
 
 .about-me-content {
-  color: black;
+  color: #fffef4;
+  background-color: #0f0f0f;
 }
 
 .keyline {
@@ -313,8 +308,9 @@ svg:hover path {
     position: absolute;
     top: 50%;
     transform:translateY(-50%);
-    max-width: 18em;
-    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 20em;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fffef4;
   }
 
 .about-me-body {
