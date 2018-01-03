@@ -224,6 +224,10 @@ p {
   color: #333;
 }
 
+.misc-nav {
+  font-weight: 700;
+}
+
 .footer-name {
   border-right: 1px solid #fff;
   margin-right: .5rem;
