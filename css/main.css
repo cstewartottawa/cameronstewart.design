@@ -229,8 +229,14 @@ p {
 }
 
 .misc-nav-keyline {
-  margin-right: .5rem;
-  padding-right: .7rem;
+  padding-right: 2.9rem;
+  padding-left: 2.9rem;
+}
+
+.misc-nav-keyline-b {
+  padding-right: 2.9rem;
+  padding-left: 2.9rem;
+  background-color: #0f0f0f;
 }
 
 .footer-name {
