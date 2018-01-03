@@ -163,7 +163,16 @@ p {
 }
 
 .cycling-secondary-title {
-  color: #ed1c24;
+  color: #eb0029;
+}
+
+.cycling-app-process {
+  color: #fff;
+  background-color: #eb0029;
+}
+
+.cycling-app-process-title {
+  color: #0f0f0f;
 }
 
 .bg-volt {
