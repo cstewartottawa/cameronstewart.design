@@ -84,7 +84,7 @@ a:active {
   background-color: #ff6b6b;
 }
 
-.current,
+.nav .current,
 .nav a:hover {
   color: #ff6b6b;
 }
@@ -228,11 +228,15 @@ p {
   font-weight: 700;
 }
 
-.footer-name {
-  border-right: 1px solid #fff;
+.misc-nav-keyline {
   margin-right: .5rem;
   padding-right: .7rem;
-  line-height: 1;
+}
+
+.footer-name {
+  border-right: 1px solid #ff6b6b;
+  margin-right: .5rem;
+  padding-right: .7rem;
 }
 
 
@@ -328,6 +332,14 @@ svg:hover path {
 
 .about-me-body {
   font-weight: 300;
+}
+
+.misc-nav li {
+  display: inline-block;
+}
+
+.misc-nav-keyline {
+  border-right: 2px solid #ff6b6b;
 }
 
 
