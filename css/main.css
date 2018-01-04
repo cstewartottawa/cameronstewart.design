@@ -79,8 +79,8 @@ a:active {
 }
 
 .keyline {
-  height: .25rem;
-  width: 3rem;
+  height: .1rem;
+  width: 2rem;
   background-color: #ff6b6b;
 }
 
@@ -327,6 +327,12 @@ svg:hover path {
 
   .about-me-body {
     font-weight: 300;
+  }
+
+  .keyline {
+    height: .2rem;
+    width: 3rem;
+    background-color: #ff6b6b;
   }
 
 }
