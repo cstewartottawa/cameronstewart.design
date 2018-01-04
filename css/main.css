@@ -228,17 +228,6 @@ p {
   font-weight: 700;
 }
 
-.misc-nav-keyline {
-  padding-right: 2.9rem;
-  padding-left: 2.9rem;
-}
-
-.misc-nav-keyline-b {
-  padding-right: 2.9rem;
-  padding-left: 2.9rem;
-  background-color: #0f0f0f;
-}
-
 .footer-name {
   border-right: 1px solid #ff6b6b;
   margin-right: .5rem;
@@ -336,20 +325,30 @@ svg:hover path {
     color: #fffef4;
   }
 
-.about-me-body {
-  font-weight: 300;
+  .about-me-body {
+    font-weight: 300;
+  }
+
 }
 
-.misc-nav li {
-  display: inline-block;
-}
+@media only screen and (min-width: 80em) {
 
-.misc-nav-keyline {
-  border-right: 2px solid #ff6b6b;
-}
+  .misc-nav li {
+    display: inline-block;
+  }
 
+  .misc-nav-keyline {
+    padding-right: 2.9rem;
+    padding-left: 2.9rem;
+    border-right: 1px solid #ff6b6b;
 
+  }
 
+  .misc-nav-keyline-b {
+    padding-right: 2.9rem;
+    padding-left: 2.9rem;
+    background-color: #0f0f0f;
+  }
 }
 
 @media (hover: hover) {
