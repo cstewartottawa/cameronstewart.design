@@ -234,6 +234,11 @@ p {
   padding-right: .7rem;
 }
 
+.social-icon {
+  height: 20px;
+  width: 20px;
+}
+
 
  svg path {
   transition: fill 0.2s;
@@ -333,6 +338,11 @@ svg:hover path {
     height: .2rem;
     width: 3rem;
     background-color: #ff6b6b;
+  }
+
+  .social-icon {
+    height: 32px;
+    width: 32px;
   }
 
 }
