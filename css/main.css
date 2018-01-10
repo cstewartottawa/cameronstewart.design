@@ -8,6 +8,10 @@ body {
   min-width: 320px;
 }
 
+.prev-next-rect {
+  fill: black;
+}
+
 .masthead,
 .footer {
   background-color: rgba(0, 0, 0, 0.8);
@@ -209,7 +213,6 @@ p {
 .baxter-original {
   color: #0f0f0f;
 }
-
 
 .bjkane-intro {
   background-color: #0f0f0f;
