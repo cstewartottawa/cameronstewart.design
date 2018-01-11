@@ -1,0 +1,3 @@
+Sitemap: https://cameronstewart.design/sitemap.xml
+
+User-Agent: *
