@@ -215,6 +215,11 @@ p {
 }
 
 .bjkane-intro {
+  background-color: #fff;
+  color: #ed1c24;
+}
+
+.bjkane-original {
   background-color: #0f0f0f;
   color: #fff;
 }
