@@ -256,17 +256,16 @@ p {
   height: 40px;
   width: 40px;
   position: absolute;
-  left: 15px;
-  bottom: 15px;
-
+  left: 20px;
+  bottom: 20px;
 }
 
 .next-icon {
   height: 40px;
   width: 40px;
   position: absolute;
-  right: 15px;
-  bottom: 15px;
+  right: 20px;
+  bottom: 20px;
 
 }
 
@@ -375,6 +374,21 @@ svg:hover path {
     height: 32px;
     width: 32px;
   }
+
+  .prev-icon {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 46px;
+    bottom: 46px;
+  }
+
+  .next-icon {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 46px;
+    bottom: 46px;
 
 }
 
