@@ -8,6 +8,10 @@ body {
   min-width: 320px;
 }
 
+strong {
+  font-weight: 400;
+}
+
 .prev-next-rect {
   fill: black;
 }
