@@ -12,11 +12,12 @@ body {
   fill: black;
 }
 
-.masthead,
+.nav-bg,
 .footer {
   background-color: rgba(0, 0, 0, 0.8);
   color: #d5d8dc;
 }
+
 
 .masthead {
   position: fixed;
@@ -55,6 +56,18 @@ a:active {
 
 .list-group-inline > dt {
   width: 4em;
+}
+
+.btn-404 {
+  border-color: #fffef4;
+  color: #fffef4;
+  background-color: transparent;
+  font-weight: 400;
+}
+
+.btn-404:hover {
+  border-color: #ff6b6b;
+  color: #ff6b6b;
 }
 
 
@@ -278,7 +291,7 @@ p {
   transition: fill 0.2s;
 }
 
-svg:hover path {
+.wordmark:hover path {
   fill: #ff6b6b;
 }
 
