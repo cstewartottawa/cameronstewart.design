@@ -374,9 +374,9 @@ p {
 
   .about-me-content {
     position: absolute;
-    top: 50%;
-    transform:translateY(-50%);
+    top: 55%;
     max-width: 20em;
+    transform:translateY(-50%);
     background-color: rgba(0, 0, 0, 0.85);
     color: #fffef4;
   }
