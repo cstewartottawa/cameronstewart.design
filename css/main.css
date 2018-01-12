@@ -89,7 +89,7 @@ a:active {
 }
 
 .banner-content {
-  color: #fff;
+  color: #f9f9f9;
   text-shadow: .05em .05em .15em rgba(0, 0, 0, .6);
   text-align: right;
 }
@@ -179,7 +179,7 @@ p {
 }
 
 .cycling-secondary {
-  background-color: #efefef;
+  background-color: #f9f9f9;
   color: #0f0f0f;
 }
 
@@ -188,7 +188,7 @@ p {
 }
 
 .cycling-app-process {
-  color: #fff;
+  color: #f9f9f9;
   background-color: #eb0029;
 }
 
@@ -198,7 +198,7 @@ p {
 
 .cycling-app-my-rides {
   background-color: #0f0f0f;
-  color: #fff;
+  color: #f9f9f9;
 }
 
 .bg-volt {
@@ -207,11 +207,12 @@ p {
 
 .baxter-intro {
   background-color: #3974c0;
-  color: #fff;
+  color: #f9f9f9;
 }
 
 .baxter-process {
   color: #d3c2af;
+  background-color: #f9f9f9;
 }
 
 .baxter-process-title {
@@ -224,7 +225,7 @@ p {
 }
 
 .baxter-secondary-title {
-  color: #fff;
+  color: #f9f9f9;
 }
 
 .baxter-original {
@@ -232,17 +233,17 @@ p {
 }
 
 .bjkane-intro {
-  background-color: #fff;
+  background-color: #f9f9f9;
   color: #eb0029;
 }
 
 .bjkane-original {
   background-color: #0f0f0f;
-  color: #fff;
+  color: #f9f9f9;
 }
 
 .bjkane-process {
-  background-color: #fff;
+  background-color: #f9f9f9;
   color: #0f0f0f;
 }
 
@@ -338,6 +339,10 @@ p {
 
 .bg-black {
   background-color: #0f0f0f;
+}
+
+.bg-white {
+  background-color: #f9f9f9;
 }
 
 .color-black {
