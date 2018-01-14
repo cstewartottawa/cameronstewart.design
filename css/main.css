@@ -291,6 +291,14 @@ p {
 
 }
 
+.next-arrow {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 20px;
+  bottom: 2px;
+}
+
 
  svg path {
   transition: fill 0.2s;
@@ -415,6 +423,15 @@ p {
     position: absolute;
     right: 46px;
     bottom: 46px;
+  }
+
+  .next-arrow {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+  }
 
 }
 
