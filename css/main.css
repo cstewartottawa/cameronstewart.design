@@ -296,7 +296,7 @@ p {
   width: 20px;
   position: absolute;
   right: 20px;
-  bottom: 2px;
+  bottom: 50px;
 }
 
 
@@ -430,7 +430,7 @@ p {
     width: 40px;
     position: absolute;
     right: 100px;
-    bottom: 0px;
+    bottom: 60px;
   }
 
 }
